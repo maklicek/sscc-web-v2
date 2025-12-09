@@ -167,3 +167,34 @@ body { font-family:"Inter", system-ui, sans-serif; background:#f3f5f8; color:#1e
         grid-template-columns: 1fr;
     }
 }
+/* FUTURE SECTION */
+.future-section {
+    background: #ffffff;
+}
+
+.future-intro {
+    max-width: 900px;
+    font-size: 18px;
+    opacity: 0.85;
+    margin-bottom: 30px;
+}
+
+.future-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    margin-top: 40px;
+}
+
+.future-box {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 26px rgba(0,0,0,0.06);
+}
+
+@media(max-width: 900px) {
+    .future-grid {
+        grid-template-columns: 1fr;
+    }
+}
